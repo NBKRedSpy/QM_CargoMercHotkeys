@@ -1,0 +1,7 @@
+{
+  "UniqueModName": "NBKRedSpy_QM_CargoMercHotkeys",
+  "Assemblies": [
+    "QM_CargoMercHotkeys.dll"
+  ],
+  "Dependencies": []
+}
