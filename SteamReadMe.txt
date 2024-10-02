@@ -54,3 +54,10 @@ Key icons from [url=https://pixabay.com/users/sthenostudio-875253/?utm_source=li
 [h1]Source Code[/h1]
 
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_CargoMercHotkeys
+
+[h1]Change Log[/h1]
+
+[h2]1.1.0[/h2]
+[list]
+[*].8 compatibility.
+[/list]

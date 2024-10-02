@@ -29,12 +29,12 @@ namespace QM_CargoMercHotkeys
 
             if (Input.GetKeyUp(Plugin.Config.CargoKey) && __instance._arsenalButton.isActiveAndEnabled)
             {
-                __instance.ArsenalButtonOnClick(__instance._arsenalButton);
+                __instance.ArsenalButtonOnClick(__instance._arsenalButton,1);
                 return;
             }
             else if (Input.GetKeyUp(Plugin.Config.MercenariesKey) && __instance._mercenariesButton.isActiveAndEnabled)
             {
-                __instance.MercenariesButtonOnClick(__instance._mercenariesButton);
+                __instance.MercenariesButtonOnClick(__instance._mercenariesButton,1);
                 return;
             }
         }
