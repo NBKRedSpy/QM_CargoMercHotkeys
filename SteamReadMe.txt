@@ -8,7 +8,7 @@ The default for mercenaries is X due to the game using M for Map.
 
 [h1]Configuration[/h1]
 
-The configuration file will be created on the first game run and can be found at [i]%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph\QM_CargoMercHotkeys\config.json[/i].
+The configuration file will be created on the first game run and can be found at [i]%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\QM_CargoMercHotkeys\config.json[/i].
 [table]
 [tr]
 [td]Name
