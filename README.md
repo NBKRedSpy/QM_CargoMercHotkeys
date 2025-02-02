@@ -33,5 +33,8 @@ Key icons from [Tanya Ferrera](https://pixabay.com/users/sthenostudio-875253/?ut
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_CargoMercHotkeys
 
 # Change Log 
+## 1.2.0
+0.8.5 Compatibility.
+
 ## 1.1.0
 * .8 compatibility.

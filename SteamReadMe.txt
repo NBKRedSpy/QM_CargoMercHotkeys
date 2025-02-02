@@ -57,6 +57,10 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_CargoMercH
 
 [h1]Change Log[/h1]
 
+[h2]1.2.0[/h2]
+
+0.8.5 Compatibility.
+
 [h2]1.1.0[/h2]
 [list]
 [*].8 compatibility.

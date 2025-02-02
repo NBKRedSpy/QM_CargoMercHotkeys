@@ -22,7 +22,7 @@ namespace QM_CargoMercHotkeys
             //
             //  if (SharedUi.NarrativeTextScreen.IsViewActive || SharedUi.ConfirmMagnumUpgradeWindow.IsViewActive ||
             //  SharedUi.ConfirmDialogWindow.IsViewActive || _itemProductionContextMenu.gameObject.activeSelf)
-            if (!__instance.gameObject.activeSelf || SharedUi.NarrativeTextScreen.IsViewActive || SharedUi.ConfirmMagnumUpgradeWindow.IsViewActive || SharedUi.ConfirmDialogWindow.IsViewActive || __instance._itemProductionContextMenu.gameObject.activeSelf)
+            if (!__instance.gameObject.activeSelf || SharedUi.NarrativeTextScreen.IsActive || SharedUi.ConfirmMagnumUpgradeWindow.IsViewActive || SharedUi.ConfirmDialogWindow.IsViewActive || __instance._itemProductionContextMenu.gameObject.activeSelf)
             {
                 return;
             }
