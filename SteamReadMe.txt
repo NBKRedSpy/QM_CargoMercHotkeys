@@ -1,6 +1,18 @@
 [h1]Cargo and Merc Hotkeys[/h1]
 
 
+[h1]Important - This version of the mod is only for the opt in beta version of the game![/h1]
+
+This is a temporary version that supports the 0.8.6 beta, and not the current game's version.
+For the non beta version of the game, use the mod of the same name without the BETA suffix.
+
+The non beta version [i]must[/i] be uninstalled.
+When the 0.8.6 becomes the main version, this mod will be deleted.
+Note that the beta is expected to change many times before release.
+As such, this mod may break on each beta release.
+
+[h1]Docs[/h1]
+
 Adds hotkeys to the ship's cargo and mercenary buttons.
 
 The keys can be configured and default to C for cargo and X for mercenaries.
@@ -56,6 +68,10 @@ Key icons from [url=https://pixabay.com/users/sthenostudio-875253/?utm_source=li
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_CargoMercHotkeys
 
 [h1]Change Log[/h1]
+
+[h2]1.3.0[/h2]
+
+Compatible with the 0.8.6 opt in beta
 
 [h2]1.2.0[/h2]
 
