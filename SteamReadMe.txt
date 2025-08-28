@@ -8,6 +8,8 @@ The default for mercenaries is X due to the game using M for Map.
 
 [h1]Configuration[/h1]
 
+This mod supports MCM, however the values are currently read only.  Edit the config file directly to change the settings.
+
 The configuration file will be created on the first game run and can be found at [i]%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\QM_CargoMercHotkeys\config.json[/i].
 [table]
 [tr]
@@ -48,14 +50,21 @@ If you enjoy my mods and want to buy me a coffee, check out my [url=https://ko-f
 Thanks!
 
 [h1]Credits[/h1]
-
-Key icons from [url=https://pixabay.com/users/sthenostudio-875253/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1409743]Tanya Ferrera[/url] at [url=https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1409743]Pixabay[/url]
+[list]
+[*]Special thanks to Crynano for his excellent Mod Configuration Menu.
+[*]Key icons from [url=https://pixabay.com/users/sthenostudio-875253/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1409743]Tanya Ferrera[/url] at [url=https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1409743]Pixabay[/url]
+[/list]
 
 [h1]Source Code[/h1]
 
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_CargoMercHotkeys
 
 [h1]Change Log[/h1]
+
+[h2]1.4.0[/h2]
+[list]
+[*]Initial MCM support.
+[/list]
 
 [h2]1.3.0[/h2]
 

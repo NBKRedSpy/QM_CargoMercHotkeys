@@ -9,6 +9,8 @@ The default for mercenaries is X due to the game using M for Map.
 
 # Configuration
 
+This mod supports MCM, however the values are currently read only.  Edit the config file directly to change the settings.
+
 The configuration file will be created on the first game run and can be found at `%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\QM_CargoMercHotkeys\config.json`.
 
 |Name|Default|Description|
@@ -27,12 +29,16 @@ Thanks!
 
 # Credits
 
-Key icons from [Tanya Ferrera](https://pixabay.com/users/sthenostudio-875253/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1409743) at [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1409743)
+* Special thanks to Crynano for his excellent Mod Configuration Menu. 
+* Key icons from [Tanya Ferrera](https://pixabay.com/users/sthenostudio-875253/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1409743) at [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1409743)
 
 # Source Code
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_CargoMercHotkeys
 
 # Change Log 
+## 1.4.0 
+* Initial MCM support.
+
 ## 1.3.0 
 Compatible with the 0.8.6 opt in beta
 

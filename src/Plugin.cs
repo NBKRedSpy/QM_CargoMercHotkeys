@@ -1,5 +1,6 @@
 ﻿using HarmonyLib;
 using MGSC;
+using QM_CargoMercHotkeys.Mcm;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,6 +9,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+
 
 namespace QM_CargoMercHotkeys
 {
@@ -34,6 +36,10 @@ namespace QM_CargoMercHotkeys
 
         public static ModConfig Config { get; private set; }
 
+        public static Logger Logger { get; set; } = new Logger();
+
+        private static McmConfiguration McmConfiguration;
+
         static Plugin()
         {
             ModAssemblyName = Assembly.GetExecutingAssembly().GetName().Name;
@@ -55,6 +61,10 @@ namespace QM_CargoMercHotkeys
 
             Config = ModConfig.LoadConfig(ConfigPath);
 
+            McmConfiguration = new McmConfiguration(Config, Plugin.Logger);
+            McmConfiguration.TryConfigure();
+
+
             new Harmony("NBKRedSpy_" + ModAssemblyName).PatchAll();
         }
 
@@ -70,12 +80,12 @@ namespace QM_CargoMercHotkeys
 
                 if (!Directory.Exists(oldDirectory)) return;
 
-                Debug.LogWarning($"Moving config folder from '{oldDirectory}' to '{ModsPersistenceFolder}");
+                Plugin.Logger.LogWarning($"Moving config folder from '{oldDirectory}' to '{ModsPersistenceFolder}");
                 Directory.Move(oldDirectory, ModsPersistenceFolder);
             }
             catch (Exception ex)
             {
-                Debug.Log($"Unable to move the config files.  Exception: {ex.ToString()}");
+                Plugin.Logger.Log($"Unable to move the config files.  Exception: {ex.ToString()}");
             }
         }
 
