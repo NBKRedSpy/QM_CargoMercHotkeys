@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace QM_CargoMercHotkeys.Mcm
 {
-    internal class McmConfiguration : McmConfigurationBase<ModConfig>
+    internal class McmConfiguration : McmConfigurationBase
     {
 
         public McmConfiguration(ModConfig config, Logger logger) : base (config, logger) { }
